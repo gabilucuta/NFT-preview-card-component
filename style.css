@@ -1,0 +1,158 @@
+/* ### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) */
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Outfit',sans-serif;
+}
+
+body 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 10%)
+
+}
+
+hr
+{
+    margin-top: 20px;
+    border: 1px solid rgb(122, 113, 142);
+    opacity: 0.5;
+}
+
+.eye
+{
+    position: absolute;
+    right: 720px;
+    top: 215px;
+    display: none;
+}
+
+.nftImage
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nftImage:hover
+{
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.nftImage:hover + .eye
+{
+    display: block;
+
+}
+
+.avatarImage
+{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+
+
+.title
+{
+    color: white;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.title:hover
+{
+    cursor: pointer;
+    color: aqua;
+}
+
+.myP
+{
+    color: rgb(145, 160, 190);
+    font-weight: 100;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.time
+{
+    color: rgb(50, 246, 246);
+    font-weight: 100;
+    margin-left: 30%;
+    font-size: 15px;
+}
+
+
+
+.price
+{
+    color: rgb(50, 246, 246);
+    font-weight: 400;
+}
+
+.author
+{
+    color: rgb(145, 160, 190);
+    
+
+}
+
+.name
+{
+    color: white;
+}
+
+.name:hover{
+    cursor: pointer;
+}
+
+.cont
+{
+    vertical-align: middle;
+}
+
+.attribution
+ { 
+    font-size: 11px; text-align: center;color: white;
+    margin-top: 20px;
+ }
+
+.attribution a 
+{ 
+    color: hsl(228, 45%, 44%); 
+}
